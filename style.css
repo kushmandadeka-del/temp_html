@@ -611,15 +611,20 @@ h2{
         margin-right: 5px;
     }
 
+
     .p2,
     .p3,
     .p4,
     .p5 {
         width: 100%;
-        max-width: 100%;
-        height: 240px;
+        height: 220px;
         box-sizing: border-box;
-    }
+    
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+    
 
 
     /* ---------- SECOND CARD SECTION ---------- */
