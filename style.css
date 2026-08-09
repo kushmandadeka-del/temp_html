@@ -308,118 +308,121 @@ margin-bottom: 10px;
     flex-wrap: wrap;
     
 }
-.grid3{
-    background-color: black;
-    height: 120px;
-    width: 150px;
+.grid3,
+.grid4,
+.grid5,
+.grid6 {
+    height: 145px;
+    width: calc(50% - 15px);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-right: 0;
+    box-sizing: border-box;
 }
+
+/* grid 3 */
 #g9{
     position:relative;
     top: 80px;
-    /* background-image: url(photo6.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo6.jpg);
+    background-size: cover;
 }
 #g10{
     position:relative;
     top: 80px;
-    /* background-image: url(photo9.jpg);
-    background-size: cover; */
+    background-image: url(photo9.jpg); 
+    background-size: cover; 
 }
 #g11{
     position:relative;
     bottom: -20px;
-    /* background-image: url(photo13.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo13.jpg);
+    background-size: cover;
 }
 #g12{
     position:relative;
     bottom: -20px;    
-    /* background-image: url(photo12.jpg); */
-    /* background-size: cover; */
-}.grid4{
-    background-color: black;
-    height: 120px;
-    width: 150px;
+    background-image: url(photo12.jpg);
+    background-size: cover;
 }
+/* grid 4 */
 #g13{
     position:relative;
     top: 80px;
-    /* background-image: url(photo6.jpg); */
+    background-image: url(photo6.jpg);
     background-size: cover;
 }
 #g14{
     position:relative;
     top: 80px;
-    /* background-image: url(photo9.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo9.jpg);
+    background-size: cover;
 }
 #g15{
     position:relative;
     bottom: -20px;
-    /* background-image: url(photo13.jpg); */
+    background-image: url(photo13.jpg);
     background-size: cover;
 }
 #g16{
     position:relative;
     bottom: -20px;    
-    /* background-image: url(photo12.jpg); */
-    /* background-size: cover; */
-}.grid5{
-    background-color: black;
-    height: 120px;
-    width: 150px;
+    background-image: url(photo12.jpg);
+    background-size: cover;
 }
+/* grid 5 */
 #g17{
     position:relative;
     top: 80px;
-    /* background-image: url(photo6.jpg); */
+    background-image: url(photo6.jpg);
     background-size: cover;
 }
 #g18{
     position:relative;
     top: 80px;
-    /* background-image: url(photo9.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo9.jpg);
+    background-size: cover;
 }
 #g19{
     position:relative;
     bottom: -20px;
-    /* background-image: url(photo13.jpg); */
+    background-image: url(photo13.jpg);
     background-size: cover;
 }
 #g20{
     position:relative;
     bottom: -20px;    
-    /* background-image: url(photo12.jpg); */
-    /* background-size: cover; */
-}.grid6{
-    background-color: black;
-    height: 120px;
-    width: 150px;
+    background-image: url(photo12.jpg);
+    background-size: cover;
 }
+/* grid 6 */
+
 #g21{
     position:relative;
     top: 80px;
-    /* background-image: url(photo6.jpg); */
+    background-image: url(photo6.jpg);
     background-size: cover;
 }
 #g22{
     position:relative;
     top: 80px;
-    /* background-image: url(photo9.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo9.jpg);
+    background-size: cover;
 }
 #g23{
     position:relative;
     bottom: -20px;
-    /* background-image: url(photo13.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo13.jpg);
+    background-size: cover;
 }
 #g24{
     position:relative;
     bottom: -20px;    
-    /* background-image: url(photo12.jpg); */
-    /* background-size: cover; */
+    background-image: url(photo12.jpg);
+    background-size: cover;
 }
 .foot{
     height: 917px;
@@ -613,18 +616,26 @@ h2{
 
 
     .p2,
-    .p3,
-    .p4,
-    .p5 {
-        width: 100%;
-        height: 220px;
-        box-sizing: border-box;
-    
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+.p3,
+.p4,
+.p5 {
+    width: 100%;
+    height: 220px;
+    box-sizing: border-box;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-    
+    .p4{
+        width: 280%;
+        height:250px;
+        margin-top: 20px;
+    }
+        .p5{
+        width: 280%;
+        height: 250px;
+        }
 
 
     /* ---------- SECOND CARD SECTION ---------- */
